@@ -102,23 +102,22 @@ TECH STACK
 PROJECT STRUCTURE
 
 YoutubeTrendingVisibility/
-│
 ├── code/
-│   ├── analysis.py
-│   ├── preprocess.py
-│   ├── streamlit_dashboard.py
+│ ├── analysis.py
+│ ├── preprocess.py
+│ ├── streamlit_dashboard.py
 │
 ├── figures/
-│   ├── correlation_matrix.png
-│   ├── residual_plot.png
-│   ├── qq_plot.png
-│   ├── trending_lag_by_country.png
-│   ├── top_channels_concentration_line.png
-│   └── ...
+│ ├── correlation_matrix.png
+│ ├── residual_plot.png
+│ ├── qq_plot.png
+│ ├── trending_lag_by_country.png
+│ ├── top_channels_concentration_line.png
+│ └── ...
 │
 ├── report.doc
 ├── .gitignore
-└── README
+└── README.md
 
 --------------------------------------------------
 
