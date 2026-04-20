@@ -107,11 +107,31 @@ YoutubeTrendingVisibility/
 │   ├── analysis.py
 │   ├── preprocess.py
 │   ├── streamlit_dashboard.py
-│   └── *.png (visual outputs)
+│
+├── figures/
+│   ├── correlation_matrix.png
+│   ├── residual_plot.png
+│   ├── qq_plot.png
+│   ├── trending_lag_by_country.png
+│   ├── top_channels_concentration_line.png
+│   └── ...
 │
 ├── report.doc
 ├── .gitignore
 └── README
+
+--------------------------------------------------
+
+SAMPLE VISUALIZATIONS
+
+Correlation Matrix
+(figures/correlation_matrix.png)
+
+Trending Lag by Country
+(figures/trending_lag_by_country.png)
+
+Top Channels Concentration Curve
+(figures/top_channels_concentration_line.png)
 
 --------------------------------------------------
 
@@ -128,6 +148,24 @@ streamlit run code/streamlit_dashboard.py
 
 --------------------------------------------------
 
+NOTES
+
+- Update file paths in scripts to match your local environment
+- Dataset is large-scale, ensure sufficient memory
+- Outputs (figures) are generated automatically during analysis
+
+--------------------------------------------------
+
 AUTHOR
 
 Tingyu Zhang
+
+--------------------------------------------------
+
+PROJECT HIGHLIGHTS (FOR RECRUITERS)
+
+- Handles large-scale real-world data with efficient processing pipeline
+- Combines data engineering, statistical modeling, and visualization
+- Applies econometric diagnostics (VIF, heteroskedasticity tests)
+- Explores algorithmic behavior and platform inequality using Gini and HHI
+- Includes interactive dashboard for exploratory analysis
